@@ -58,8 +58,8 @@ public class enemyShipsController : MonoBehaviour
         shipCrewStText.text = enemyShip.crewSt.ToString();
 
         shipGoldText.text = "$" + enemyShip.resourceGold.ToString();
-        shipFoodText.text = "¢" + enemyShip.resourceFood.ToString();
-        shipMaterialText.text = "¥" + enemyShip.resourceMaterial.ToString();
+        shipFoodText.text = "Â¢" + enemyShip.resourceFood.ToString();
+        shipMaterialText.text = "Â¥" + enemyShip.resourceMaterial.ToString();
     }
 
     void HideMoreShipsThanMax()
