@@ -7,6 +7,9 @@ TagManager:
   - recruitable
   - crewmate
   - enemyship
+  - menuBarcos
+  - bounds
+  - barcoMalo
   layers:
   - Default
   - TransparentFX
@@ -43,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: canvas
+    uniqueID: 1628363439
     locked: 0

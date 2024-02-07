@@ -21,10 +21,14 @@ public class canvasController : MonoBehaviour
         if (canvas.transform.localScale == Vector3.one)
         {
             canvas.transform.localScale = Vector3.zero;
+            
+            Time.timeScale = 1;
+
         }
         else
         {
             canvas.transform.localScale = Vector3.one;
+            Time.timeScale = 0;
 
         }
     }
@@ -34,6 +38,11 @@ public class canvasController : MonoBehaviour
         if (canvas.transform.localScale == Vector3.one)
         {
             canvas.transform.localScale = Vector3.zero;
+
+            if (Time.timeScale == 0)
+            {
+                Time.timeScale = 1;
+            }
         }
     }
 }
